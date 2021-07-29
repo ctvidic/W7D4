@@ -26,6 +26,10 @@ button {
 		text-align: center;
 }
 
+.right-nav button{
+	margin-left: 3px;
+}
+
 button:hover {
 	background-color: RGB(50, 104, 145);
 	border-color: #b4b4b4;

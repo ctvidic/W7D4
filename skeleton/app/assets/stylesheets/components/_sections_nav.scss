@@ -1,0 +1,25 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid gray;
+	position: relative;
+    justify-content: center;
+    font-family: $sans-serif;
+}
+
+.navbar li{
+    margin: 10px;
+}
+
+.navbar li:hover{
+    background-color: $lightest-gray;
+}
+
+.all {
+    font-size: 10px;
+
+}
+.all:hover{
+    text-decoration: underline;
+    background-color: white;
+}

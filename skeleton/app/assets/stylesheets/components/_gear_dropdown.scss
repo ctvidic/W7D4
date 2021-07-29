@@ -1,1 +1,29 @@
 // Use the gear_dropdown.png screenshot as a style guide
+
+#gear-dropdown span{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.help {
+    text-decoration: underline;
+    color: blue;
+}
+
+.editions li:hover{
+    background-color: gray;
+}
+
+#gear-dropdown{
+    box-shadow: -1px 4px 6px 1px rgba(0,0,0,0.09)
+}
+
+#gear-dropdown{
+   display: none;
+}
+
+.right_nav i:hover{
+    #gear-dropdown{
+            display: block;
+    }
+}
