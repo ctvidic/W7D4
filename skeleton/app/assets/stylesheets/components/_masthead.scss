@@ -3,7 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	border-bottom: 2px solid black;
-	position: relative;
+	position: absolute;
 }
 
 .language-nav {
@@ -27,7 +27,12 @@
 	ul {
 		display: flex;
 	}
+
+	a:first-child {
+		font-weight: bold;
+	}
 }
+
 
 .logo {
 	max-width: 400px;
@@ -43,7 +48,7 @@
 
 	li {
 		margin-left: 10px;
-		border-right: 1px solid $light-gray;
+		
 	}
 
 	button {
